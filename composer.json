@@ -1,0 +1,16 @@
+{
+  "name": "seyfer/rabbitmq-learn",
+  "description": "rabbitmq-learn",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "rabbitmq",
+    "tutorial",
+    "amqp"
+  ],
+  "homepage": "http://seyferseed.ru/",
+  "require": {
+    "php": ">=5.3.3",
+    "ext-amqp": ">=1.4.0",
+    "videlalvaro/php-amqplib": "2.5.*"
+  }
+}
