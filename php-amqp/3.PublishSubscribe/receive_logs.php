@@ -28,7 +28,7 @@ try {
     $exchange->setType(AMQP_EX_TYPE_FANOUT);
     $exchange->setName($exchange_name);
     $exchange->declareExchange();
-    
+
     $queue = new AMQPQueue($channel);
     $queue->setFlags(AMQP_EXCLUSIVE); //allow server to define name
     $queue->declareQueue();
